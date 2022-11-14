@@ -1,0 +1,78 @@
+ *{
+    background-color: rgb(150, 132, 149);
+    margin: 0;
+    padding: 0;
+    font-family: 'Wallpoet', cursive;
+ }
+ #hidden{
+    display: none;
+}
+ h1{
+    padding: 10px;
+    text-align: center;
+    color: purple;
+ }  
+
+#board{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    #grid{ 
+        display: flex;
+        flex-wrap: wrap;
+        border: solid, 1px, rgb(53, 12, 53);
+        width: 300px;
+        height: 300px;
+    }
+    .btn:hover{
+    cursor: crosshair;
+    }
+        input{
+            width: calc(100%/3);
+            height: calc(100%/3);
+            background-color:rgba(133, 62, 133, 0.605) ;
+            border-color: whitesmoke;
+            color: rgb(209, 194, 207);
+            font-size: 24px;
+        }
+    }
+
+.resetbtn{
+    padding:5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .reset{
+        border-radius: 20%;
+    border: 0.5px gainsboro solid;
+    font-size: 30px;
+    color: purple;
+    }
+    .reset:hover{
+        background-color: gainsboro;
+        color: grey;
+    }
+    }
+
+p{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;   
+}
+:hover{
+    cursor:default;
+}
+.coinToss{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#toss{
+    padding: 3px;
+    background-color: goldenrod;
+}
+#toss:hover{
+    background-color: antiquewhite;
+    color:black
+}
